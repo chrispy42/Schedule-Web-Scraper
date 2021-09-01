@@ -1,3 +1,6 @@
+'''
+This code got the names of the students by logging into my google account and scraping from the mailing list my shcool uses to send school wide emails
+'''
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
