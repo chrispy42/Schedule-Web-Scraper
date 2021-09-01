@@ -1,3 +1,7 @@
+'''
+This code was what allowed me to see full classs lists. It used the json files to compile the all of the people in any class for any dot. I have no idea why I
+decided it would be a good idea to custom create my own gui but believe me when I say it is awful. But it does work and it is pretty cool. 
+'''
 import pygame
 import json
 import time
