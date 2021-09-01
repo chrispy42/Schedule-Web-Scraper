@@ -1,3 +1,8 @@
+'''
+This is the code that took the emails and put them in the url to scrape for the classes and save them to the json files. Once again the json files aren't 
+in this repository because it has the emails and names of everyone in the school at the time
+'''
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
