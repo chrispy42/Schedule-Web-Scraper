@@ -1,3 +1,8 @@
+'''
+This code logged into my google account and got the emails of everyone. The way it did this was actually by composing an email, typing in the persons name, 
+and then pulling the first email on the drop down list that google offers. Its possibly the most inprecise solution to any problem ever but somehow it 
+worked astonishingly well at the time. There is definitly a better way to do this but it felt quite creative at the time
+'''
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
