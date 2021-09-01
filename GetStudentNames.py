@@ -9,6 +9,9 @@ import json
 
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
+
+emailusername = 'exusername'
+emailpassword = 'expassword'
 student_names = []
 #get to groups page
 driver.get('https://groups.google.com/a/gouldacademy.org/forum/#!members/students-l')
@@ -23,7 +26,7 @@ loadcheck0 = WebDriverWait(driver, 10).until(
 )
 time.sleep(.5)
 username = driver.find_element_by_xpath('//input[@aria-label="Email or phone"]')
-username.send_keys("pylec23@gouldacademy.org")
+username.send_keys(emailusername)
 nextelement = driver.find_element_by_id("identifierNext")
 nextelement.click()
 loadcheck1= WebDriverWait(driver, 10).until(
@@ -31,7 +34,7 @@ loadcheck1= WebDriverWait(driver, 10).until(
 )
 password = driver.find_element_by_name('password')
 time.sleep(1)
-password.send_keys('180!VaJocu')
+password.send_keys(emailpassword)
 password.send_keys(Keys.RETURN)
 loadcheck2= WebDriverWait(driver, 10).until(
     EC.presence_of_element_located((By.CLASS_NAME, "lbMVLc"))
