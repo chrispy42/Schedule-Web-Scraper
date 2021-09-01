@@ -1,2 +1,4 @@
 # Schedule-Web-Scraper
 A webscraper built in selenium to get the schedules of students and teachers from my school 
+
+For a brief period of time my school used a custom website to show people their schedules but there was no log in so the only thing needed to see someones schedule was their email. This web scraper logged into my google acount, got the emails of everyone in my school, scraped the schedule getter with the emails and compiled the schedule into a usable format so I could see who was in any particular class. The code no longer works partly because my school quickly adopted a more secure system and mostly because I'm not going to bother maintaining something that doesnt work as web scrapers are quite difficult to maintain. But I will keep it here mostly for the nostalgia as it was very fun to make and was one of my first projects
